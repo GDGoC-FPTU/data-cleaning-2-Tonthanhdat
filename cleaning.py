@@ -58,7 +58,7 @@ def clean_data(input_file, output_file):
         seen_ids.add(item_id)
 
     # Save the sanitized data
-    
+
     # TODO: Write sanitized_data to output_file with indent=4
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(sanitized_data, f, indent=4)
